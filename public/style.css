@@ -1563,7 +1563,7 @@ ul.dropdown li a:after {
 
 .big-footer {
 	background-color: #151723;
-	padding: 120px 0;
+	padding: 32px 0;/*120px*/
 	background-image: url('img/./f-pattern.png');
 }
 
@@ -1617,6 +1617,7 @@ ul.dropdown li a:after {
 
 .footer-content ul {
 	margin-top: 30px
+	color: #efefef;   
 }
 
 .footer-content.footer-cont-mar-40 ul {
@@ -1626,7 +1627,7 @@ ul.dropdown li a:after {
 .footer-content ul li a {
 	color: #efefef;
 	font-size: 16px;
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 	line-height: 30px;
 }
 
@@ -3173,3 +3174,12 @@ footer p {
 	background: linear-gradient(252.62deg, #84FC6A 8.92%, #48D6F2 96.59%);
 	border: 2px solid transparent
 }
+
+.fa, .fas {
+	font-weight: 900;
+	padding-right: 5%;
+ }
+
+ .foot-cont{
+	 color: #efefef;
+ }
