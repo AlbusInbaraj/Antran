@@ -393,8 +393,9 @@ ul {
 }
 
 .logo-area img {
-	padding: 16px 0;
-	width: 100px;
+	padding: 0px 0px;
+   	width: 204px;
+    	margin-left: -150%;
 }
 
 /*2.1 Menu CSS*/
@@ -416,7 +417,7 @@ ul {
 	line-height: 1;
 	position: relative;
 	font-weight: 700;
-	padding: 40px 0;
+	padding: 45px 0;
 	transition: .5s
 }
 
@@ -3183,4 +3184,12 @@ footer p {
 
  .foot-cont{
 	 color: #efefef;
+ }
+
+ @media only screen and (max-width:480px){
+	.logo-area{
+		padding: 0px 0px;
+		width: 204px;
+		margin-left: -150%;
+	 }
  }
